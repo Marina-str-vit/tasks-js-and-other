@@ -20,3 +20,8 @@ var lengthOfLongestSubstring = function (s) {
     }
     return max;
 };
+
+Input: s = "abcabcbb"
+Output: 3
+
+console.log(lengthOfLongestSubstring("abcabcbb")) //  3 (abc)
